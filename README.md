@@ -5,7 +5,9 @@ Bayesian paramter inference for epithelial mechanics
 
 Here are scripts for Bayesian parameter inference for epithelial mechanics, reported in Yan and Ogita et al. 2024 [1]. 
 
-Using a input file that contains the information about detected vertices, edges, cells, and coordinates of cell vertices from an image of epithelial tissue, one can use the scripts to perform non-hierarchical Bayesian parameter inference with "BayesParameterEstimation.py", or hierarchical Bayesian parameter inference with "HBayesParameterEstimation.py". 
+Using an input file that contains the information about the position and connectivity of cell vertices from an image of epithelial tissue, the scripts can be used to perform non-hierarchical Bayesian parameter inference with **BayesParameterEstimation.py** or hierarchical Bayesian parameter inference with **HBayesParameterEstimation.py**. 
+
+**GetVertex**, a Fiji/ImageJ plug-in for generating an input file from a segmented image, is available from [Github](https://github.com/Sugimuralab/GetVertexPlugin).
 
 ## Requirement
 
