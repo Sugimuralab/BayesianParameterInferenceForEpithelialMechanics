@@ -30,3 +30,12 @@ Using an input file that contains the information about the position and connect
 ## Reference
 1. Xin Yan, Goshi Ogita#, Shuji Ishihara, and Kaoru Sugimura# (2024)<br>
 "Bayesian parameter inference for epithelial mechanics."<br> Journal of Theoretical Biology [[https://www.sciencedirect.com/science/article/pii/S0022519324002455](https://www.sciencedirect.com/science/article/pii/S0022519324002455)]
+
+## Additional Notes
+
+These Bayesian parameter inference coded were originally implemented for image datasets of in vivo epithelial tissues. For inference using synthetic data, please set the following flags accordingly:
+- `AreaNormalization = False`  
+- `Artificial = True`
+instead of the default ones:
+- `AreaNormalization = True`  
+- `Artificial = False`
