@@ -36,6 +36,7 @@ Using an input file that contains the information about the position and connect
 These Bayesian parameter inference coded were originally implemented for image datasets of in vivo epithelial tissues. For inference using synthetic data, please set the following flags accordingly:
 - `AreaNormalization = False`  
 - `Artificial = True`
+
 instead of the default ones:
 - `AreaNormalization = True`  
 - `Artificial = False`
